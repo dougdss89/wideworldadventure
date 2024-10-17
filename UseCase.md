@@ -29,3 +29,7 @@ A nova organização deseja, **a partir dos dados**, alcançar os seguintes obje
 2. aumentar seus clientes com base nos existentes.
 3. entender os padrões de consumo e relacionamento, para melhorar seus produtos e serviços.
 4. Ganhar vantagem competitiva e participação no mercado.
+
+____________________________________________________________________________________________________________________________
+
+
