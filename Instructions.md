@@ -19,3 +19,4 @@ HDFS e CORE.
 
 _Se alterar o nome do cluster e os nomes dos nós, altere as configurações que utilizam._
 
+No HDFS-SITE, as configurações que você precisa alterar, caso deseje, são as do namenodes e do cluster.
