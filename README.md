@@ -37,3 +37,30 @@ Faça o restore no SQL Server para utilizá-las como fonte de dados.
 
 [Adventureworks](https://github.com/Microsoft/sql-server-samples/releases/download/wide-world-importers-v1.0/WideWorldImporters-Full.bak)
 e [WideWorldImporters](https://github.com/Microsoft/sql-server-samples/releases/download/wide-world-importers-v1.0/WideWorldImporters-Full.bak)
+
+### SQL Server
+____________________________________________________
+Se desejar a base RAW, porém, com as tabelas que julguei necessárias para o projeto, pode baixar daqui
+A base HML, não tem tratamento nem nada. Já a PRD, os dados estão tratados. Ambas são originadas do banco de dados Adventureworks da Microsoft.
+
+dwadvworks_prd
+dwadvworks_hml
+
+**[Faça o download das fontes de dados aqui.](https://drive.google.com/drive/u/0/folders/1dw7fwB9hsgc0sjUspzBVMcetywIdfRNf)**
+
+### PostGreSQL
+_____________________________________________________
+Os arquivos dw_wideworld e wideworld_hml, são originados da WideWorldImporters, também da Microsoft.
+Eles seguem a mesma linha do exemplo anterior, sendo HML a base sem tratamento e o dw_wideworld tratado.
+
+Esses arquivos são para restaurar no banco PostgreSQL.
+
+Para migrar para o SGBD, utilizei o Airbyte, ferramenta de ELT.
+
+Para subir as bases no PostgreSQL use os arquivos:
+
+wideworld_hml
+dw_wideworld
+
+**[Faça o download das fontes de dados aqui.](https://drive.google.com/drive/u/0/folders/1dw7fwB9hsgc0sjUspzBVMcetywIdfRNf)**
+
